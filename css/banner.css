@@ -1,0 +1,20 @@
+.banner {
+    background-image: url('../img/musica.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 600px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

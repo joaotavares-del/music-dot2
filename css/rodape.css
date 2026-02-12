@@ -1,0 +1,22 @@
+.rodape {
+    background-color: #2D5377;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.redes-sociais {
+    margin-top: 20px;
+}
+
+.redes-sociais li {
+    display: inline-block; /* Faz os links ficarem lado a lado */
+    margin: 0 15px;
+}
+
+.redes-sociais a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

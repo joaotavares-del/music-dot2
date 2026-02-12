@@ -1,0 +1,58 @@
+body {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-principal {
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    padding: 10px;
+    font-size: 24px;
+    background-color: #E1EDF2;
+    margin-top: 20px;
+}
+
+/* Regra importante para as imagens não vazarem da figure */
+figure img {
+    width: 100%;
+}
+
+figure {
+    padding: 15px;
+    margin: 30px;
+    background-color: #F2FFFC;
+    border: 1px solid #ccc;
+}
+
+/* Configuração Matriz */
+.matriz-musicdot {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Configuração Família com float */
+.familia-tupfeln {
+    width: 275px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul {
+    margin: 20px 40px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 10px;
+}

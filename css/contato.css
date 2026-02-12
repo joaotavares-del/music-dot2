@@ -1,0 +1,58 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo-principal {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Espaçamento de 10px entre cada campo (Substitui o <br>) */
+.campo {
+    margin-bottom: 10px;
+}
+
+/* Rótulos em bloco para ficarem em cima do campo */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Campos com 500px de largura e 30px de altura */
+input {
+    width: 500px;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+    border: 1px solid #ccc;
+}
+
+/* Campo de opinião com 300px de altura */
+textarea {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    resize: none; /* Impede o usuário de redimensionar */
+}
+
+/* Botão: 100px x 50px, fundo branco, letra preta negritada */
+.botao-enviar {
+    width: 100px;
+    height: 50px;
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botao-enviar:hover {
+    background-color: #eee; /* Efeito visual ao passar o mouse */
+}
